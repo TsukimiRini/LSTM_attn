@@ -1,10 +1,10 @@
 '''
 @Author: tsukimi
 @Date: 2020-03-29 22:59:27
-@LastEditTime: 2020-03-30 13:10:02
+@LastEditTime: 2020-03-30 13:16:34
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
-@FilePath: \LSTM_attn\data\preprocess.py
+@FilePath: \\LSTM_attn\\data\\preprocess.py
 '''
 import torch
 from tqdm import tqdm
@@ -79,10 +79,10 @@ class DataProcess(object):
 
     def parse_data(self, file_path, is_train=True):
         """Parse dataset to get vocab and label library.
-        
+        ---------------------------
         Arguments:
             file_path {String} -- file path of dataset
-        
+        ---------------------------
         Keyword Arguments:
             is_train {bool} -- whether the dataset is a train dataset (default: {True})
         """
